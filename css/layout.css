@@ -1,0 +1,39 @@
+.home {
+    background-color: var(--primary-color);
+    min-height: 100vh;
+    padding: 2rem 3rem;
+}
+
+.invoice {
+    min-height: 90vh;
+    width: 100%;
+    background-image: 
+        linear-gradient(80deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .9) 55%, transparent 55%),
+        url("../images/pexel-min.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 77.8em) {
+    .invoice {
+        background-image: 
+            linear-gradient(80deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .9) 60%, transparent 60%),
+            url("../images/pexel-min.jpg");
+    }
+}
+
+@media only screen and (max-width: 57.9em) {
+    .invoice {
+        background-image: 
+            linear-gradient(85deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .9) 60%, transparent 60%),
+            url("../images/pexel-min.jpg");
+    }
+}
+
+@media only screen and (max-width: 41.2em) {
+    .invoice {
+        background-image: 
+            linear-gradient(85deg, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .9) 100%),
+            url("../images/pexel-min.jpg");
+    }
+}
