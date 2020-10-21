@@ -41,8 +41,11 @@
     text-transform: uppercase;
     text-align: center;
     line-height: 4.5rem;
-    padding: 3rem 1rem;
-    color: var(--primary-color);
+    border-radius: 4px;
+    padding: 1rem 1rem;
+    margin: 2rem 0;
+    background-color: var(--primary-color);
+    color: #FFF;
 }
 
 .modal__content--details {
